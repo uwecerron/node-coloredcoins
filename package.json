@@ -2,7 +2,13 @@
   "name": "node-coloredcoins",
   "description": "Chroma Wallet JSON-RPC Client API",
   "version": "0.0.1",
-  "keywords": ["chromawallet", "coloredcoins", "bitcoin", "api", "client"],
+  "keywords": [
+    "chromawallet",
+    "coloredcoins",
+    "bitcoin",
+    "api",
+    "client"
+  ],
   "homepage": "http://chromawallet.com/",
   "author": "Uwe Cerron <uwecerron@gmail.com>",
   "main": "./lib/main",
@@ -12,5 +18,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/uwecerron/node-coloredcoins.git"
-  }
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
