@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose publish [ '.' ]
+5 verbose read json /Users/uwecerron/node-coloredcoins/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/uwecerron/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/tmp.tgz
+14 verbose folder .
+15 info prepublish node-coloredcoins@0.0.1
+16 silly lockFile c24fd652-789936-0-590585506753996-tmp-tgz /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/tmp.tgz
+17 verbose lock /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/tmp.tgz /Users/uwecerron/.npm/c24fd652-789936-0-590585506753996-tmp-tgz.lock
+18 silly lockFile c24fd652-789936-0-590585506753996-tmp-tgz /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/tmp.tgz
+19 verbose tar unpack /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/tmp.tgz
+20 silly lockFile 0498304c-789936-0-590585506753996-package /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package
+21 verbose lock /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package /Users/uwecerron/.npm/0498304c-789936-0-590585506753996-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry LICENSE
+26 silly gunzTarPerm extractEntry examples/test.js
+27 silly gunzTarPerm extractEntry index.js
+28 silly gunzTarPerm extractEntry lib/main.js
+29 verbose read json /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package/package.json
+30 silly lockFile 0498304c-789936-0-590585506753996-package /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package
+31 verbose from cache /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package/package.json
+32 verbose tar pack [ '/Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz',
+32 verbose tar pack   '/var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package' ]
+33 verbose tarball /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz
+34 verbose folder /var/folders/vq/czkll9zs2rgc4blt5rqw0fg00000gn/T/npm-19672/1394007789936-0.590585506753996/package
+35 silly lockFile 34b75ac5-e-coloredcoins-0-0-1-package-tgz /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz
+36 verbose lock /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz /Users/uwecerron/.npm/34b75ac5-e-coloredcoins-0-0-1-package-tgz.lock
+37 silly lockFile 34b75ac5-e-coloredcoins-0-0-1-package-tgz /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz
+38 silly lockFile 1a49d155--node-coloredcoins-0-0-1-package /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package
+39 verbose lock /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package /Users/uwecerron/.npm/1a49d155--node-coloredcoins-0-0-1-package.lock
+40 silly lockFile 1a49d155--node-coloredcoins-0-0-1-package /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package
+41 verbose tar unpack /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz
+42 silly lockFile 1a49d155--node-coloredcoins-0-0-1-package /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package
+43 verbose lock /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package /Users/uwecerron/.npm/1a49d155--node-coloredcoins-0-0-1-package.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm extractEntry LICENSE
+48 silly gunzTarPerm extractEntry examples/test.js
+49 silly gunzTarPerm extractEntry index.js
+50 silly gunzTarPerm extractEntry lib/main.js
+51 verbose read json /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package/package.json
+52 silly lockFile 1a49d155--node-coloredcoins-0-0-1-package /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package
+53 silly shasum updated bytes 2290
+54 info shasum 217ddae22c09fe50b8de42478c6889a88b6a4b55
+54 info shasum /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz
+55 verbose from cache /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package/package.json
+56 verbose chmod /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz 644
+57 verbose chown /Users/uwecerron/.npm/node-coloredcoins/0.0.1/package.tgz [ 501, 20 ]
+58 silly lockFile 3a52ce78- .
+59 silly publish { name: 'node-coloredcoins',
+59 silly publish   description: 'Chroma Wallet JSON-RPC Client API',
+59 silly publish   version: '0.0.1',
+59 silly publish   keywords: [ 'chromawallet', 'coloredcoins', 'bitcoin', 'api', 'client' ],
+59 silly publish   homepage: 'http://chromawallet.com/',
+59 silly publish   author: { name: 'Uwe Cerron', email: 'uwecerron@gmail.com' },
+59 silly publish   main: './lib/main',
+59 silly publish   dependencies: { jayson: '1.0.11' },
+59 silly publish   repository:
+59 silly publish    { type: 'git',
+59 silly publish      url: 'https://github.com/uwecerron/node-coloredcoins.git' },
+59 silly publish   readme: 'NodeJS Colored Coins\n=======================================\nNodeJS Colored Coins RPC Client\n\nDependencies Installation\n========\nnpm install -d or npm install -g if you want global.\n\n\nLicence\n========\nThe MIT License (MIT)\n\nCopyright © 2013 Uwe Cerron\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n',
+59 silly publish   readmeFilename: 'README.md',
+59 silly publish   _id: 'node-coloredcoins@0.0.1',
+59 silly publish   dist: { shasum: '217ddae22c09fe50b8de42478c6889a88b6a4b55' } }
+60 error need auth auth and email required for publishing
+60 error need auth You need to authorize this machine using `npm adduser`
+61 error System Darwin 12.5.0
+62 error command "node" "/usr/local/bin/npm" "publish"
+63 error cwd /Users/uwecerron/node-coloredcoins
+64 error node -v v0.8.14
+65 error npm -v 1.1.65
+66 error code ENEEDAUTH
+67 verbose exit [ 1, true ]
